@@ -1,5 +1,6 @@
 "use client"
 import { useState } from 'react'
+import Link from 'next/link'
 
 const Header = () => {
  const [isNavOpen, setIsNavOpen] = useState(false);
@@ -12,10 +13,10 @@ const Header = () => {
    <header>
     <nav className="navbar navbar-expand-lg navigation fixed-top bg-light" id="navbar">
      <div className="container">
-      <a className="navbar-brand d-flex align-items-center" href="index.html">
+     <Link href="#heroBanner" className="navbar-brand d-flex align-items-center">
        <img src="images/logo.png" alt="" className="img-fluid" />
        <p className='logo-title mb-0 p-0'>Dr. Sunil</p>
-      </a>
+      </Link>
 
       <button className={`navbar-toggler ${isNavOpen ? '' : 'collapsed'}`} type="button" onClick={toggleNav} aria-label="Toggle navigation">
        <span className="icofont icofont-navigation-menu"></span>
