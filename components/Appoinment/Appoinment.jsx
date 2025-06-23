@@ -14,8 +14,7 @@ const Appoinment = () => {
           <i className="icofont icofont-phone-circle text-lg"></i> 98702777114
          </h2>
          <p className="mt-3 mb-1"><strong>Hospital:</strong> Velmed Hospitals</p>
-         <p className="mb-1"><strong>Email (Hospital):</strong> <a href="mailto:info@velmedhospitals.com">info@velmedhospitals.com</a></p>
-         <p className="mb-1"><strong>Email (Dr. Sunil):</strong> <a href="mailto:snlsingh89@gmail.com">snlsingh89@gmail.com</a></p>
+
         </div>
        </div>
       </div>
